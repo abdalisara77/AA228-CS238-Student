@@ -142,7 +142,7 @@ def compute(infile, outfile):
         bestguess.add_node(label)
     
     answer = localgraphsearch(bestguess,df,instances)
-    nx.readwrite.edgelist.write_edgelist(answer, outfile, "edgelist")
+    nx.readwrite.adjlist.write_adjlist(answer, outfile, "test.adjlist")
 
 
 def main():
