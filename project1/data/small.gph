@@ -1,11 +1,8 @@
-test.adjlistproject1.py data/small.csv data/small.gph
-test.adjlist GMT Fri Oct  9 22:42:47 2020
-test.adjlist 
-fare numparentschildren
-numparentschildren survived
+fare,numparentschildren
+numparentschildren,survived
 age
-passengerclass portembarked
-sex numparentschildren survived
-numsiblings age
+passengerclass,portembarked
+sex,numparentschildren,survived
+numsiblings,age
 survived
 portembarked
