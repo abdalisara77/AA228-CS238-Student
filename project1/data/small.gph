@@ -1,8 +1,11 @@
-fare,numparentschildren
-numparentschildren,survived
+test.adjlist/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/ipykernel_launcher.py -f /Users/sara/Library/Jupyter/runtime/kernel-f35e0725-3b9e-43ca-b2a7-3736200f6f91.json
+test.adjlist GMT Fri Oct  9 23:32:12 2020
+test.adjlist 
 age
-passengerclass,portembarked
-sex,numparentschildren,survived
-numsiblings,age
-survived
-portembarked
+portembarked passengerclass
+fare portembarked passengerclass survived
+numparentschildren numsiblings age
+passengerclass age
+sex numparentschildren passengerclass
+numsiblings age
+survived passengerclass portembarked sex numsiblings
